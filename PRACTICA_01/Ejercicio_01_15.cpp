@@ -20,11 +20,12 @@ int main(){
     cout << "Ingrese el numero de terminos a ser imprimidos: ";
     cin >> numTerms;
 
+    // Imprime la cantidad ingresada de términos de la secuencia Fibonacci
     for(int i = 0; i <= numTerms; i++){
         cout << x << endl;
         z = x + y;
         x = y;
         y = z;
     }
-
+    return 0;
 }
