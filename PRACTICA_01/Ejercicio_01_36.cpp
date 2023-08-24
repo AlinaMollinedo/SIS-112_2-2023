@@ -16,14 +16,14 @@
 #include <iostream>
 
 using namespace std;
-double age, sumAge, over18, n, height, sumHeight, over175;
+double age, sumAge, over18, x, height, sumHeight, over175;
 
 int main(){
 
     cout << "Ingrese la cantidad de alumnos: ";
-    cin >> n;
+    cin >> x;
 
-    for(int i = 1; i <= n; i++){
+    for(int i = 1; i <= x; i++){
         cout << "\nAlumno #" << i << endl;
         cout << "Ingrese la edad del alumno: ";
         cin >> age;
@@ -42,8 +42,8 @@ int main(){
             over175++;
         }
     }
-    cout << "\nLa edad media es " << sumAge / n << endl;
-    cout << "La altura media es " << sumHeight / n << endl;
+    cout << "\nLa edad media es " << sumAge / x << endl;
+    cout << "La altura media es " << sumHeight / x << endl;
     cout << "La cantidad de alumnos mayores a 18 es de " << over18 << endl;
     cout << "La cantidad de alumnos que miden mas que 175cm es " << over175 << endl;
     return 0;

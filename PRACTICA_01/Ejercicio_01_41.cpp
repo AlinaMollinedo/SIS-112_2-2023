@@ -20,14 +20,14 @@
 #include <iostream>
 
 using namespace std;
-double n, workHours, hourlyRate, total, workerDis, retained;
+double x, workHours, hourlyRate, total, workerDis, retained;
 
 int main(){
 
     cout << "Ingrese el numero de obreros: ";
-    cin >> n;
+    cin >> x;
 
-    for(int i = 1; i <= n; i++){
+    for(int i = 1; i <= x; i++){
         cout << "\nObrero #" << i << endl;
         cout << "Ingrese las horas trabajadas: ";
         cin >> workHours;

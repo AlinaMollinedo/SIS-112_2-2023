@@ -15,7 +15,7 @@
 #include <iostream>
 
 using namespace std;
-double num, suma = 0, n;
+double num, suma = 0, x;
 
 int main(){
 
@@ -24,10 +24,10 @@ int main(){
         cin >> num;
 
         suma = suma + num;
-        n++;
+        x++;
     }
     while(num > 0);
-    cout << n;
-    cout << "El promedio de los numeros ingresados es: " << suma / (n - 1) << endl; // Calcula el promedio y lo imprime
+    cout << x;
+    cout << "El promedio de los numeros ingresados es: " << suma / (x - 1) << endl; // Calcula el promedio y lo imprime
     return 0;
 }

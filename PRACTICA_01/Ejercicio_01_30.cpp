@@ -14,7 +14,7 @@
 #include <iostream>
 
 using namespace std;
-double n = 2;
+double x = 2;
 int terms;
 
 int main(){
@@ -24,8 +24,8 @@ int main(){
 
     // Calcula la secuencia para el número de términos ingresado
     for(double i = 2; i < terms + 1; i++){
-        n = n + (i+1)/i;
+        x = x + (i+1)/i;
     }
-    cout << "Resultado: " << n << endl;
+    cout << "Resultado: " << x << endl;
     return 0;
 }
