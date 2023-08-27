@@ -27,24 +27,24 @@ int main(){
     srand(time(NULL));
 
     for(int i = 0; i < n; i++){
-        int x = 50 + rand() % (240 - 50); // Genera números al azar entre a y b
+        int x = 50 + rand() % (240 - 50); // Genera estaturas al azar entre 50 y 240 cm
         v[i] = x;
         cout << x << " ";
     }
 
     for(int i = 0; i < n; i++){
-        if(v[i] < shortest){
+        if(v[i] < shortest){ // Determina la estatura menor
             shortest = v[i];
         }
         else{
             if(v[i] > tallest){
-                tallest = v[i];
+                tallest = v[i]; // Determina la estatura mayor
             }
         }
-        suma += v[i];
+        suma += v[i]; // Suma las estaturas
     }
     cout << "\n\nLa mayor estatura es: " << tallest << " cm." << endl;
     cout << "La menor estatura es: " << shortest << " cm." << endl;
-    cout << "La estatura promedio es: " << suma / n << " cm." << endl;
+    cout << "La estatura promedio es: " << suma / n << " cm." << endl; // Saca el promedio de las estaturas
     return 0;
 }
