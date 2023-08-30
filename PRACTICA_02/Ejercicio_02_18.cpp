@@ -7,6 +7,7 @@
 // Fecha modificación: 29/08/2023
 
 // Número de ejericio: 18
+
 // Problema planteado: Programa que declare un vector de diez elementos enteros y pida números para rellenarlo
 // hasta que se llene el vector o se introduzca un número negativo. Entonces se debe imprimir el
 // vector (sólo los elementos introducidos)
